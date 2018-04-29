@@ -10,6 +10,7 @@
     - and, or, not
 
 * 4.3. Comparisons
+
    | Operation | 	Meaning                 | 
    | -----     | ---------------------------|
    | :---      | :---                       |  
