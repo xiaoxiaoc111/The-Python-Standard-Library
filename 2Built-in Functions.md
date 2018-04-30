@@ -42,6 +42,9 @@
     - reduce(function,seq[,init])
 
 * 5 非常用函数
+    - all(iterable)
+    - any(iterable)
+    
     - dir([object])
     - enumerate(iterable，start = 0 )
     - eval(expression)
@@ -54,8 +57,7 @@
     - repr(object)
     - set([iterable])
     - ascii(object)     
-    - all(iterable)
-    - any(iterable)
+    - 
     - hash(object)
     - memoryview(obj)
     - property(fget=None, fset=None, fdel=None, doc=None)
