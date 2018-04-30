@@ -1,16 +1,16 @@
 ## 2 内置函数
 * 1 math 
     - abs(-1)   //1
-    - max([1,2,3]//3
+    - max([1,2,3] //3
     - min([1,2,3]) //1
     - sum(3,5)  //8
     - len('abc')  //3
-    - divmod(5,2)  //(2,1)   求商求余       
-    - pow(2,3,4)  //2**3/4   指数运算
+    - divmod(5,2) //(2,1)  求商求余       
+    - pow(2,3,4) //2**3/4  指数运算
     - round(4.566,1) //4.5 浮点数x的四舍五入
 
 * 2 function 
-    - callable(funcname)  // True or Flase        函数是否可调用：
+    - callable(funcname)        // True or Flase        函数是否可调用：
     - isinstance(x,list/int)  //True or Flase    类型判断
     - cmp('hello','hello')    //True or Flase   比较
     - range([start,] stop[, step])// [0,1,2....]  快速生成序列
