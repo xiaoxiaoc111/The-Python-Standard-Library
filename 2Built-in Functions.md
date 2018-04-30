@@ -155,14 +155,21 @@
         >>> x - y         # 差集
             set(['r', 'b', 'u', 'n'])
         ```
+    =========================================
     - globals() 以字典类型返回当前位置的全部全局变量 
     - locals() 以字典类型返回当前位置的全部局部变量
     - vars([object])返回对象object的属性和属性值的字典对象类似 locals()
-    
+    =========================================
     - id([object])用于获取对象的内存地址
     - repr(object)将对象转化为供解释器读取的形式
-   
-    - ascii(object)     
+    - ascii(object) 
+    =========================================
+    - delattr(object，name) 用于删除属性值，该属性必须存在
+    - getattr(object, name[, default])用于设置属性值，该属性必须存在
+    - setattr(object, name, value)对应函数 getatt()，用于设置属性值，该属性必须存在
+    - hasattr(object, name) 用于判断对象是否包含对应的属性
+    =========================================
+    
     - hash(object)返回对象的哈希值
     - memoryview(obj)返回给定参数的内存查看对象
     - class property([fget[, fset[, fdel[, doc]]]])在新式类中返回属性值
@@ -172,9 +179,5 @@
     - staticmethod()  返回函数的静态方法
     - zip(*iterables)对象中对应的元素打包成一个个元组，然后返回由这些元组组成的列表。
 
-    - delattr（object，name ）用于删除属性值，该属性必须存在
-    - getattr(object, name[, default])用于设置属性值，该属性必须存在
-    - setattr(object, name, value)对应函数 getatt()，用于设置属性值，该属性必须存在
-    - hasattr(object, name) 用于判断对象是否包含对应的属性
 
 
